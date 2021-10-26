@@ -12,7 +12,7 @@ public class CylinderComputation {
 		final double PI = 3.14159265;
 		
 		surfacearea = 2.0*PI*(radius*radius) + 2.0*PI*(radius*height); 
-		basearea = PI*(radius*radius);
+		basearea = 4.0*PI*(radius*radius);
 		volume = PI*(radius*radius)*height;
 		
 		System.out.print("The radius is ");
